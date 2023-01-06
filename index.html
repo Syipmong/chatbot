@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <script src="https://kit.fontawesome.com/b9ba23b21e.js" crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>ChatBot</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="chatbot-container">
+        <div class="chatbot-header">
+            <h3>ChatBot</h3>
+                     <div class="typing-indicator">
+                         <span>t</span>
+                         <span>y</span>
+                         <span>p</span>
+                         <span>i</span>
+                         <span>n</span>
+                         <span>g</span>
+                         <span>...</span>
+                     </div>
+                     <!-- Add a button to toggle night-mode -->
+<button id="toggle-night-mode" type="checkbox">
+  <i class="fa fa-moon-o" aria-hidden="true"></i>
+  <i class="fa fa-sun-o" aria-hidden="false"></i>
+</button>
+
+
+        </div>
+        
+        <div class="messages-container">
+        <div class="type-message">
+            <input type="text" id="msg" placeholder="Type your message">
+            <i class="fa-regular fa-paper-plane fa-2x" id="sendmsg"></i>
+        </div>
+        </div>
+        
+    </div>
+  <script src="instance.js"></script>
+</body>
+</html>
