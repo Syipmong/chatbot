@@ -1,7 +1,7 @@
 
 window.onload = function(){
     
-    alert('Hello\nGood day. please comment any suggestion or bug you find in the program.And use the moon or sun icon at the top right corner of the screen to toggle between nightmode and daymode\nBot created by\nYipmong')
+   // alert('Hello\nGood day. please comment any suggestion or bug you find in the program.And use the moon or sun icon at the top right corner of the screen to toggle between nightmode and daymode\nBot created by\nYipmong')
     
   const msgButton = document.getElementById('sendmsg');
   const messageInput = document.querySelector('#msg');
